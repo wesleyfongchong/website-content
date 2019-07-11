@@ -8,7 +8,7 @@ tags_weight: 5
 path: express-middleware
 ---
 
-A middleware is a function that hooks into the routing process, and performs some operation at some point, depending on what it want to do.
+A middleware is a function that hooks into the routing process, and performs some operation at some point, depending on what we want to do.
 
 It's commonly used to edit the request or response objects, or terminate the request before it reaches the route handler code.
 
