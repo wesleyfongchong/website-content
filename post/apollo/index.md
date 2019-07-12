@@ -2,7 +2,7 @@
 title: "A complete introduction to Apollo, the GraphQL toolkit"
 description: "Apollo is a suite of tools to create a GraphQL server, and to consume a GraphQL API. Let's explore Apollo in detail, both Apollo Client and Apollo Server."
 date: 2018-03-19T08:06:29+02:00
-updated: 2019-07-05T11:06:29+02:00
+updated: 2019-07-12T07:06:29+02:00
 tags: graphql
 ---
 
@@ -134,10 +134,10 @@ We'll add an Apollo Link to our Apollo Client instance to use the GitHub GraphQL
 
 ```js
 import { ApolloClient } from 'apollo-client'
-import { HttpLink } from 'apollo-link-http'
+import { createHttpLink } from 'apollo-link-http'
 
 const client = new ApolloClient({
-  link: new HttpLink({ uri: 'https://api.github.com/graphql' })
+  link: createHttpLink({ uri: 'https://api.github.com/graphql' })
 })
 ```
 
@@ -147,11 +147,11 @@ We're not done yet. Before having a working example we must also tell `ApolloCli
 
 ```js
 import { ApolloClient } from 'apollo-client'
-import { HttpLink } from 'apollo-link-http'
+import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 
 const client = new ApolloClient({
-  link: new HttpLink({ uri: 'https://api.github.com/graphql' }),
+  link: createHttpLink({ uri: 'https://api.github.com/graphql' }),
   cache: new InMemoryCache()
 })
 ```
@@ -164,14 +164,14 @@ Now we need to connect the Apollo Client to our component tree. We do so using `
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ApolloClient } from 'apollo-client'
-import { HttpLink } from 'apollo-link-http'
+import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloProvider } from 'react-apollo'
 
 import App from './App'
 
 const client = new ApolloClient({
-  link: new HttpLink({ uri: 'https://api.github.com/graphql' }),
+  link: createHttpLink({ uri: 'https://api.github.com/graphql' }),
   cache: new InMemoryCache()
 })
 
@@ -299,7 +299,7 @@ Here is the full code for the `src/index.js` file with the code we have right no
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { ApolloClient } from 'apollo-client'
-import { HttpLink } from 'apollo-link-http'
+import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloProvider } from 'react-apollo'
 import { setContext } from 'apollo-link-context'
@@ -307,7 +307,7 @@ import gql from 'graphql-tag'
 
 import App from './App'
 
-const httpLink = new HttpLink({ uri: 'https://api.github.com/graphql' })
+const httpLink = createHttpLink({ uri: 'https://api.github.com/graphql' })
 
 const authLink = setContext((_, { headers }) => {
   const token = '***YOUR_TOKEN**'
@@ -583,5 +583,5 @@ export default App
 You have to change the `httpLink` uri in the `index.js` file to:
 
 ```js
-const httpLink = new HttpLink({ uri: 'http://localhost:4000/graphql' })
+const httpLink = createHttpLink({ uri: 'http://localhost:4000/graphql' })
 ```

@@ -396,7 +396,7 @@ In the client-side `index.js` file I add those libraries:
 
 ```js
 import { ApolloClient } from 'apollo-client'
-import { HttpLink } from 'apollo-link-http'
+import { createHttpLink } from 'apollo-link-http'
 import { InMemoryCache } from 'apollo-cache-inmemory'
 import { ApolloProvider } from 'react-apollo'
 import { setContext } from 'apollo-link-context'
@@ -410,7 +410,7 @@ I initialize an HttpLink object that points to the GraphQL API server, listening
 An HttpLink provides us a way to describe how we want to get the result of a GraphQL operation, and what we want to do with the response.
 
 ```js
-const httpLink = new HttpLink({ uri: 'http://localhost:3000/graphql' })
+const httpLink = createHttpLink({ uri: 'http://localhost:3000/graphql' })
 
 const authLink = setContext((_, { headers }) => {
   const token = Cookies.get('token')
@@ -626,13 +626,13 @@ app.use(cookieParser())
 Back to the client, in `index.js` we tell Apollo Client to include credentials (cookies) in its requests. Switch:
 
 ```js
-const httpLink = new HttpLink({ uri: 'http://localhost:3000/graphql' })
+const httpLink = createHttpLink({ uri: 'http://localhost:3000/graphql' })
 ```
 
 with
 
 ```js
-const httpLink = new HttpLink({ uri: 'http://localhost:3000/graphql', credentials: 'include' })
+const httpLink = createHttpLink({ uri: 'http://localhost:3000/graphql', credentials: 'include' })
 ```
 
 and remove the `authLink` definition altogether:
