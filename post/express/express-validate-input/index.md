@@ -2,6 +2,7 @@
 title: Validating input in Express using express-validator
 description: "Learn how to validate any data coming in as input in your Express endpoints"
 date: 2018-08-29T07:00:00+02:00
+updated: 2019-07-12T07:00:00+02:00
 tags: express
 tags_weight: 70
 path: express-validate-input
@@ -37,7 +38,7 @@ npm install express-validator
 You require the `check` object from the package:
 
 ```js
-const { check } = require('express-validator/check')
+const { check } = require('express-validator')
 ```
 
 We pass an array of `check()` calls as the second argument of the `post()` call. Every `check()` call accepts the parameter name as argument:
