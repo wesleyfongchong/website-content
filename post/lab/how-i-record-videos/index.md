@@ -40,7 +40,7 @@ I usually put it before the screen while recording me coding:
 
 ![Setup](setup.jpg)
 
-Then I a few lights for when I'm recording in the evening or when the light is just not right. I don't use them always:
+Then I got a few lights for when I'm recording in the evening or when the light is just not right. I don't use them always. Here's one:
 
 ![Light](light.jpg)
 
