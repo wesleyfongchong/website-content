@@ -68,9 +68,9 @@ Adding any number to `Infinity`, or multiplying `Infinity` for any number, still
 The global `NaN` value is an acronym for `Not a Number`. It's returned by operations such as zero divided by zero, invalid parseInt() operations, or other operations.
 
 ```js
-parseInt() //NaN
+parseInt()    //NaN
 parseInt('a') //NaN
-0/0 //NaN
+0/0           //NaN
 ```
 
 A special thing to consider is that a `NaN` value is never equal to another `NaN` value. You must use the `isNaN()` global function to check if a value evaluates to `NaN`:
@@ -78,7 +78,7 @@ A special thing to consider is that a `NaN` value is never equal to another `NaN
 ```js
 NaN === NaN //false
 0/0 === NaN //false
-isNaN(0/0) //true
+isNaN(0/0)  //true
 ```
 
 ## `undefined`
@@ -157,9 +157,9 @@ I recommend to read [this article](http://2ality.com/2014/01/eval.html) on the s
 Returns true if the value passed as parameter is finite.
 
 ```js
-isFinite(1) //true
+isFinite(1)                        //true
 isFinite(Number.POSITIVE_INFINITY) //false
-isFinite(Infinity) //false
+isFinite(Infinity)                 //false
 ```
 
 ## `isNaN()`
@@ -167,18 +167,18 @@ isFinite(Infinity) //false
 Returns true if the value passed as parameter evaluates to `NaN`.
 
 ```js
-isNaN(NaN) //true
+isNaN(NaN)        //true
 isNaN(Number.NaN) //true
-isNaN('x') //true
-isNaN(2) //false
-isNaN(undefined) //true
+isNaN('x')        //true
+isNaN(2)          //false
+isNaN(undefined)  //true
 ```
 
 This function is very useful because a `NaN` value is never equal to another `NaN` value. You must use the `isNaN()` global function to check if a value evaluates to `NaN`:
 
 ```js
 0/0 === NaN //false
-isNaN(0/0) //true
+isNaN(0/0)  //true
 ```
 
 ## `parseFloat()`
@@ -187,11 +187,11 @@ Like `parseInt()`, `parseFloat()` is used to convert a string value into a numbe
 
 ```js
 parseFloat('10,000', 10) //10     ❌
-parseFloat('10.00', 10) //10     ✅ (considered decimals, cut)
+parseFloat('10.00', 10)  //10     ✅ (considered decimals, cut)
 parseFloat('10.000', 10) //10     ✅ (considered decimals, cut)
-parseFloat('10.20', 10) //10.2     ✅ (considered decimals)
-parseFloat('10.81', 10) //10.81     ✅ (considered decimals)
-parseFloat('10000', 10) //10000  ✅
+parseFloat('10.20', 10)  //10.2   ✅ (considered decimals)
+parseFloat('10.81', 10)  //10.81  ✅ (considered decimals)
+parseFloat('10000', 10)  //10000  ✅
 ```
 
 ## `parseInt()`
@@ -222,9 +222,9 @@ Also, just like Number it's not reliable with separators between the digits:
 
 ```js
 parseInt('10,000', 10) //10     ❌
-parseInt('10.00', 10) //10     ✅ (considered decimals, cut)
+parseInt('10.00', 10)  //10     ✅ (considered decimals, cut)
 parseInt('10.000', 10) //10     ✅ (considered decimals, cut)
-parseInt('10.20', 10) //10     ✅ (considered decimals, cut)
-parseInt('10.81', 10) //10     ✅ (considered decimals, cut)
-parseInt('10000', 10) //10000  ✅
+parseInt('10.20', 10)  //10     ✅ (considered decimals, cut)
+parseInt('10.81', 10)  //10     ✅ (considered decimals, cut)
+parseInt('10000', 10)  //10000  ✅
 ```
