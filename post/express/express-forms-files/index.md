@@ -97,9 +97,7 @@ The path defaults to the temporary folder and can be modified if you listen to t
 app.post('/submit-form', (req, res) => {
   new formidable.IncomingForm().parse(req)
     .on('fileBegin', (name, file) => {
-      form.on('fileBegin', (name, file) => {
         file.path = __dirname + '/uploads/' + file.name
-      })
     })
     .on('file', (name, file) => {
       console.log('Uploaded file', name, file)
