@@ -180,7 +180,7 @@ Let's introduce the most basic helpers you can use to run your effects:
 In the code:
 
 ```js
-import { takeLatest } from 'redux-saga/effects'
+import { takeEvery } from 'redux-saga/effects'
 
 function* watchMessages() {
   yield takeEvery('ADD_MESSAGE', postMessageToServer)
