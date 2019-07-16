@@ -18,6 +18,6 @@ The standard and widely implemented properties include:
 
 The standard methods include:
 
-- `registerProtocolHander()` a way to let websites register as handlers for protocols.
+- `registerProtocolHandler()` a way to let websites register as handlers for protocols.
 
 There are many more methods and properties which are provided by APIs that are either experimental or implemented as drafts and not yet finalized, or just available on a tiny fraction of browsers, so I haven't included them here but [you can explore them all on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Navigator).
