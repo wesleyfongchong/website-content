@@ -82,14 +82,14 @@ To solve the problem we talked about in the introduction (using arrow functions 
 
 ```bash
 npm install --save-dev \
-    @babel/plugin-transform-es2015-arrow-functions
+    @babel/plugin-transform-arrow-functions
 ```
 
 to download the package in the `node_modules` folder of our app, then we need to add
 
 ```js
 {
-  "plugins": ["transform-es2015-arrow-functions"]
+  "plugins": ["@babel/plugin-transform-arrow-functions"]
 }
 ```
 
