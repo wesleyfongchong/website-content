@@ -13,7 +13,7 @@ Users cannot be identified unless using some kind of mechanism that makes it pos
 
 That's what sessions are.
 
-When implemented, every user of you API or website will be assigned a unique session, and this allows you to store the user state.
+When implemented, every user of your API or website will be assigned a unique session, and this allows you to store the user state.
 
 We'll use the `express-session` module, which is maintained by the Express team.
 
@@ -43,7 +43,7 @@ app.use(session(
 
 After this is done, all the requests to the app routes are now using sessions.
 
-`secret` is the only required parameter, but there are many more you can use. It should be a randomly unique string for you application.
+`secret` is the only required parameter, but there are many more you can use. It should be a randomly unique string for your application.
 
 The session is attached to the request, so you can access it using `req.session` here:
 
@@ -62,9 +62,9 @@ console.log(req.session.name) // 'Flavio'
 
 This data is serialized as [JSON](/json/) when stored, so you are safe to use nested objects.
 
-You can use sessions to communicate data to middleware that's executed later, or to retrieve it later on on subsequent requests.
+You can use sessions to communicate data to middleware that's executed later, or to retrieve it later on, on subsequent requests.
 
-Where is the session data stored? it depends on how you set up the `express-session` module.
+Where is the session data stored? It depends on how you set up the `express-session` module.
 
 It can store session data in
 
