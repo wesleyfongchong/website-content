@@ -122,7 +122,7 @@ Using `openDB()`:
 })()
 ```
 
-The first 2 parameters are the database name, and the verson. The third param, which is optional, is an object that contains a function **called only if the version number is higher than the current installed database version**. In the function body you can upgrade the structure (stores and indexes) of the db.
+The first 2 parameters are the database name, and the version. The third param, which is optional, is an object that contains a function **called only if the version number is higher than the current installed database version**. In the function body you can upgrade the structure (stores and indexes) of the db.
 
 ## Adding data into a store
 
