@@ -124,7 +124,7 @@ Other properties are provided by specific kind of events, as `Event` is an inter
 
 Each of those has a MDN page linked, so you can inspect all their properties.
 
-For example when a KeyboardEvent happens, you can check which key was pressed, in ar readable format (`Escape`, `Enter` and so on) by checking the `key` property:
+For example when a KeyboardEvent happens, you can check which key was pressed, in a readable format (`Escape`, `Enter` and so on) by checking the `key` property:
 
 ```js
 window.addEventListener('keydown', event => {
