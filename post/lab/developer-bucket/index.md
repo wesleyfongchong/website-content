@@ -54,7 +54,7 @@ Have you ever opened an issue on a GitHub project just to say good things and pr
 
 Developers burn out with their Open Source projects because everyone is just asking for help to build their paid projects. GitHub has an Issues tab (which involves work for the maintainer) and a Pull Requests tab (which is even more work, since the maintainer needs to understand the code someone else wrote, figure out if that’s a good thing to add, and manage rejections if that’s the case).
 
-But here’s no “Thanks” tab, where people can praise the project. People can only star a project, but that means very little. Consider doing a little bit more for those people that do very hard work, and help them fill their buckets.
+But there’s no “Thanks” tab, where people can praise the project. People can only star a project, but that means very little. Consider doing a little bit more for those people that do very hard work, and help them fill their buckets.
 
 Have you ever **publicly thanked** a developer for their Open Source code?
 
