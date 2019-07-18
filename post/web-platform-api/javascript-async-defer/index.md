@@ -86,7 +86,7 @@ These attributes make only sense when using the script in the `head` portion of 
 
 ### No defer or async, in the head
 
-Here's how a page loads a script without neither defer or async, put in the `head` portion of the page:
+Here's how a page loads a script without either defer or async, put in the `head` portion of the page:
 
 ![Without defer or async, in the head](without-defer-async-head.png)
 
@@ -94,7 +94,7 @@ The parsing is paused until the script is fetched, and executed. Once this is do
 
 ### No defer or async, in the body
 
-Here's how a page loads a script without neither defer or async, put at the end of the `body` tag, just before it closes:
+Here's how a page loads a script without defer or async, put at the end of the `body` tag, just before it closes:
 
 ![Without defer or async, in the body end](without-defer-async-body.png)
 
