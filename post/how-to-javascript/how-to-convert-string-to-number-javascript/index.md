@@ -88,12 +88,12 @@ parseFloat('10000', 10) //10000  ✅
 One "trick" is to use the unary operator `+` before the string:
 
 ```js
-;+'10,000' + //NaN ✅
-'10.000' + //10 ✅
-'10.00' + //10 ✅
-'10.20' + //10.2 ✅
-'10.81' + //10.81 ✅
-  '10000' //10000 ✅
++'10,000'  //NaN ✅
++'10.000'  //10 ✅
++'10.00' //10 ✅
++'10.20'  //10.2 ✅
++'10.81'  //10.81 ✅
++'10000' //10000 ✅
 ```
 
 See how it returns `NaN` in the first example, which is the correct behavior: it's not a number.
