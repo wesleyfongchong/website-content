@@ -2,11 +2,11 @@
 title: Roadmap to learn the Web Platform
 date: 2018-04-08T06:04:59+02:00
 updated: 2019-04-23T20:04:59+02:00
-description: "The Web Platform is an amazing ecosystem of APIs, tools, languages, and it is more powerful than ever today, in 2018. Learn the Web Platform through simple tutorials following my roadmap"
+description: "The Web Platform is an amazing ecosystem of APIs, tools and languages, and it is more powerful than ever today. Learn the Web Platform through simple tutorials following my roadmap"
 tags: browser
 ---
 
-The Web Platform is an amazing ecosystem of APIs, tools, languages, and it is more powerful than ever today, in 2018.
+The Web Platform is an amazing ecosystem of APIs, tools, languages, and it is more powerful than ever today. 
 
 I wrote a lot of tutorials and articles on this blog related to the Web Platform.
 
@@ -14,7 +14,7 @@ This post aims to organize them so you can find things more easily, and serve as
 
 ## Browser API guides
 
-First dive into the DOM, the most fundamental API exposed by the browser. Then check out the other important API, explained in simple terms.
+First dive into the DOM, the most fundamental API exposed by the browser. Once you are familiar with this, check out the other important APIs associated with the browser. 
 
 - [The DOM](/dom/)
 - [The Selectors API](/selectors-api/)
