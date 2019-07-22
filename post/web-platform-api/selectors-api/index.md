@@ -24,9 +24,9 @@ tags: browser
 
 ## Introduction
 
-jQuery and other [DOM](/dom/) libraries got a huge popularity boost in the past, among with other features they provided, thanks to an easy way to select elements on a page.
+jQuery and other [DOM](/dom/) libraries got a huge popularity boost in the past, among with the other features they provided, thanks to an easy way to select elements on a page.
 
-Traditionally browsers provided one single way to select a DOM element, and that was by its `id` attribute, with [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), a method offered by the `document` object.
+Traditionally browsers provided just a single way to select a DOM element - by its `id` attribute, with [`getElementById()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById), a method offered by the `document` object.
 
 ## The Selectors API
 
@@ -42,7 +42,7 @@ They accept any CSS selector, so you are no longer limited by selecting elements
 - `document.querySelector()` returns a single element, the first found
 - `document.querySelectorAll()` returns all the elements, wrapped in a NodeList object.
 
-Those are all valid selectors:
+These are all valid selectors:
 
 - `document.querySelector('#test')`
 - `document.querySelector('.my-class')`
