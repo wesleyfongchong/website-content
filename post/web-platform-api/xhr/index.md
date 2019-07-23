@@ -1,6 +1,6 @@
 ---
 title: "XMLHttpRequest (XHR)"
-description: "The introduction of XMLHttpRequest (XHR) in browsers have been a huge win for the Web Platform, in the mid 2000. Let's see how it works."
+description: "The introduction of XMLHttpRequest (XHR) in browsers in the mid 2000's was a huge win for the Web Platform. Let's see how it works."
 date: 2018-04-05T07:07:49+02:00
 tags: network
 ---
@@ -21,15 +21,15 @@ tags: network
 
 ## Introduction
 
-The introduction of XMLHttpRequest (XHR) in browsers have been a huge win for the Web Platform, in the mid 2000.
+The introduction of XMLHttpRequest (XHR) in browsers in the mid 2000's was a huge win for the Web Platform. Let's see how it works.
 
-Things that now look normal, back in the day looked like coming from the future. I'm thinking about GMail or Google Maps, for example, all based in great part on XHR.
+Things that now look normal, back in the day, looked like they were coming from the future. I'm talking about GMail or Google Maps, for example, which were all based in great part on XHR.
 
-XHR was invented at Microsoft in the nineties, and became a de-facto standard as all browsers implemented it in the 2002-2006 period, and the W3C standardized XMLHttpRequest in 2006.
+XHR was invented at Microsoft in the nineties, and became a de-facto standard as all browsers implemented it in the 2002-2006 period. The W3C standardized XMLHttpRequest in 2006.
 
-As it sometimes happen in the Web Platform, initially there were a few inconsistencies that made working with XHR quite different cross-browser.
+As it sometimes can happen in the Web Platform, initially there were a few inconsistencies that made working with XHR quite different cross-browser.
 
-Libraries like jQuery got a boost of popularity by providing an easy to use abstraction for developers, and in turn helped spread the usage of this technology.
+Libraries like jQuery got a boost of popularity by providing an easy to use abstraction for developers, and this in turn helped spread the usage of this technology.
 
 ## An example XHR request
 
@@ -52,7 +52,7 @@ xhr.send()
 
 In the example above we just passed the method and the URL to the request.
 
-We can specify the other HTTP methods of course (`get`, `post`, `head`, `put`, `delete`, `options`).
+We can also specify the other HTTP methods - (`get`, `post`, `head`, `put`, `delete`, `options`).
 
 Other parameters let you specify a flag to make the request synchronous if set to false, and a set of credentials for HTTP authentication:
 
@@ -62,7 +62,7 @@ open(method, url, asynchronous, username, password)
 
 ## `onreadystatechange`
 
-The `onreadystatechange` is called multiple times during an XHR request. We explicitly ignore all the states other than `readyState === 4`, which means the request is done.
+The `onreadystatechange` is called multiple times during an XHR request. We explicitly ignore all the states other than `readyState === 4`, which means that the request is done.
 
 The states are
 
@@ -111,4 +111,4 @@ You cannot access resources on another server, _unless_ the server explicitly su
 
 ## Uploading files using XHR
 
-Check my tutorial on [how to upload files using XHR](/file-upload-using-ajax/).
+Check out my tutorial on [how to upload files using XHR](/file-upload-using-ajax/).
