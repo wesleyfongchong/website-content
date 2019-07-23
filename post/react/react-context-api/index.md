@@ -69,7 +69,7 @@ You can also pass functions into a Provider value, and those functions will be u
 ```js
 <Provider value={{
   state: this.state,
-  updateSomething: () => this.setState({something: 'ho!'})
+  updateSomething: () => this.setState({something: 'ho!'})}}>
   {this.props.children}
 </Provider>
 
