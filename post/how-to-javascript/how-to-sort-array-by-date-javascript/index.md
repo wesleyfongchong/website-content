@@ -20,9 +20,13 @@ You want to sort those activities by the `date` property.
 You can use the `sort()` method of `Array`, which takes a callback function, which takes as parameters 2 objects contained in the array (which we call `a` and `b`):
 
 ```js
-const sortedActivities = activities.sort((a, b) => {
-  return new Date(b.date) - new Date(a.date)
-})
+const sortedActivities = activities.sort((a, b) => b.date - a.date)
 ```
 
 When we return a positive value, the function communicates to `sort()` that the object `b` takes precedence in sorting over the object `a`. Returning a negative value will do the opposite.
+
+The `sort()` method returns a new sorted array, but it also sorts the original array in place. Thus, both the `sortedActivities` and `activities` arrays are now sorted. One option to protect the original array from being modified is to use the `slice()` method to create a copy of the array prior to sorting, as follows:
+
+```js
+const sortedActivities = activities.slice().sort((a, b) => b.date - a.date)
+```
