@@ -1,6 +1,6 @@
 ---
 title: "The Document Object Model (DOM)"
-description: "DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. That's how modern JavaScript frameworks work, they use the DOM API to tell the browser what to display on the page"
+description: "DOM stands for Document Object Model, a representation of an HTML document in nodes and objects. Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page"
 date: 2018-03-26T07:06:29+02:00
 tags: browser
 ---
@@ -20,9 +20,9 @@ tags: browser
 
 <!-- /TOC -->
 
-The DOM is the browser internal representation of a web page. When the browser retrieves your HTML from your server, the parser analyzes the structure of your code, and creates a model of it. Based on this model, the browser then renders the page on the screen.
+The DOM is the browser's internal representation of a web page. When the browser retrieves your HTML from your server, the parser analyzes the structure of your code and creates a model of it. Based on this model, the browser then renders the page on the screen.
 
-Browsers expose an API that you can use to interact with the DOM. That's how modern JavaScript frameworks work, they use the DOM API to tell the browser what to display on the page.
+Browsers expose an API that you can use to interact with the DOM. This is how modern JavaScript frameworks work - they use the DOM API to tell the browser what to display on the page.
 
 In Single Page Applications, the DOM continuously changes to reflect what appears on the screen, and as a developer you can inspect it using the [Browser Developer Tools](/browser-dev-tools/).
 
@@ -39,9 +39,9 @@ With JavaScript you can interact with the DOM to:
 - edit any node in the page
 - change any node attribute
 
-and much more.
+.. and much more.
 
-The main 2 objects provided by the DOM API, the ones you will interact the most with, are `document` and `window`.
+The main 2 objects provided by the DOM API that you you will interact the most with are `document` and `window`.
 
 ## The Window object
 
@@ -71,7 +71,7 @@ The `window` object also exposes useful methods:
 - [`requestAnimationFrame()`](/requestanimationframe/): used to perform animations in a way that's both performant and easy on the CPU
 - `setInterval()`: call a function every n milliseconds, until the interval is cleared with `clearInterval()`
 - `clearInterval()`: clears an interval created with `setInterval()`
-- [`setTimeout()`](/javascript-timers/): execute a function after n milliseconds
+- [`setTimeout()`](/javascript-timers/): execute a function after 'n' milliseconds
 - [`setImmediate()`](/javascript-timers/): execute a function as soon as the browser is ready
 - `addEventListener()`: add an event listener to the document
 - `removeEventListener()`: remove an event listener from the document
@@ -124,7 +124,7 @@ See the full reference of all the properties and methods of the `document` objec
 
 ## Types of Nodes
 
-There are different types of nodes, some of which you already saw in the example images above. The main ones you will see are:
+There are different types of nodes, some of which you have already seen in the example images above. The main ones you will encounter are:
 
 - **Document**: the document Node, the start of the tree
 - **Element**: an HTML tag
@@ -141,29 +141,29 @@ From each of those elements, you can navigate the DOM structure and move to diff
 
 ### Getting the parent
 
-Every element has one and one single parent.
+Every element has _just one_ parent.
 
 To get it, you can use [`Node.parentNode`](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode) or [`Node.parentElement`](https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement) (where Node means a node in the DOM).
 
 They are almost the same, except when ran on the `html` element: `parentNode` returns the parent of the specified node in the DOM tree, while `parentElement` returns the DOM node's parent Element, or null if the node either has no parent, or its parent isn't a DOM Element.
 
-People most usually use `parentNode`.
+People usually use `parentNode`.
 
 ### Getting the children
 
 To check if a Node has child nodes, use **`Node.hasChildNodes()`** which returns a boolean value.
 
-To access all the Element Nodes children of a node, use **`Node.childNodes`**.
+To access all the Children Element Nodes of a node, use **`Node.childNodes`**.
 
-The DOM also exposes a `Node.children` method, but it will not just include Element nodes, but it includes also the white space between elements as Text nodes, which is not something you generally want.
+The DOM also exposes a `Node.children` method. However, it not just includes Element nodes, but also the white space between elements as Text nodes. This is not something you generally want.
 
 ![Get the children of a node](dom-get-children.png)
 
-To get the first child Element Node, use **`Node.firstElementChild`**, and to get the last child Element Node, use **`Node.lastElementChild`**:
+To get the first child Element Node, use **`Node.firstElementChild`**. To get the last child Element Node, use **`Node.lastElementChild`**:
 
 ![To get the first or last child Element Node](dom-get-first-last-child.png)
 
-The DOM also exposes `Node.firstChild` and `Node.lastChild`, with the difference that they do not "filter" the tree for Element nodes only, and they will also show empty Text nodes that indicate white space.
+The DOM also exposes `Node.firstChild` and `Node.lastChild`, with the difference that they do not "filter" the tree for Element nodes only. They will also show empty Text nodes that indicate white space.
 
 In short, to navigate children Element Nodes use
 
@@ -191,7 +191,7 @@ With
 - `document.createElement()`: creates a new Element Node
 - `document.createTextNode()`: creates a new Text Node
 
-you can create new elements, and add them the the DOM elements you want, as children, by using `document.appendChild()`:
+you can create new elements, and add them the the DOM elements you want as children, by using `document.appendChild()`:
 
 ```js
 const div = document.createElement('div')
