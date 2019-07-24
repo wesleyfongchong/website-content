@@ -63,7 +63,7 @@ Games.
 Email.
 The news.
 
-We are literally bombarded with interruptions. Every hour. Every minute. As a species, we have a global addition to notifications. As soon as there is any amount of time "free" we take out the phone from our pockets and we check Facebook, Instagram, Email to see if there's something new that needs our attention. I stumble on this every day, especially with email but I am trying to get better.
+We are literally bombarded with interruptions. Every hour. Every minute. As a species, we have a global addiction to notifications. As soon as there is any amount of time "free" we take out the phone from our pockets and we check Facebook, Instagram, Email to see if there's something new that needs our attention. I stumble on this every day, especially with email but I am trying to get better.
 
 First thing of course is to disable all notifications. Any kind of notification from your phone, computer or anything. Don't give those devices any chance of picking up your attention. We are slaves to those devices. Well, not to the devices - to the companies that engineer their way to our attention. They do employ every single psychological tactic they could find to keep you hooked to their product so they could sell more advertising and get more profits for their investors. Once you realise this, you might think differently when you enter the underground or take a bus and everyone is looking at their phone.
 
