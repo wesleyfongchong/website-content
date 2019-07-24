@@ -282,6 +282,7 @@ There are amazing public APIs you can use:
 - [The Slack API](https://api.slack.com/)
 - [The Twitter API](https://developer.twitter.com/en/docs)
 - [The YouTube API](https://developers.google.com/youtube/)
+- [Worldwide Holidays API](https://calendarific.com/api-documentation)
 
 ### Image placeholders for your sample projects
 
