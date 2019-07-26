@@ -21,7 +21,7 @@ This is what we'll build in this article. It's a very useful data structure for 
 
 **Root**: the level 0 of the tree
 
-**Child**: each node of the leaf that's not the root
+**Child**: each node of the tree that's not the root
 
 **Internal node**: each node with at least a child
 
