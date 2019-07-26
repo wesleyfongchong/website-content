@@ -85,8 +85,6 @@ window.addEventListener('load', () => {
 })
 ```
 
-This method allows to register as many handlers as we need, and it's the most popular you will find.
-
 > Note that IE8 and below did not support this, and instead used its own `attachEvent()` API. Keep it in mind if you need to support older browsers.
 
 ## Listening on different elements
