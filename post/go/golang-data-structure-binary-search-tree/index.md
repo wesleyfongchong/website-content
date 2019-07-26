@@ -25,7 +25,7 @@ This is what we'll build in this article. It's a very useful data structure for 
 
 **Internal node**: each node with at least a child
 
-**Leaf**: each node that as no children
+**Leaf**: each node that has no children
 
 **Subtree**: the set of node with a certain node as root
 
