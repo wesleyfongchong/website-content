@@ -1,6 +1,7 @@
 ---
 title: "The Streams API"
 date: 2019-07-05T07:00:00+02:00
+updated: 2019-07-15T07:00:00+02:00
 description: "Using streams we can receive a resource from the network, or from other sources, and process it as soon as the first bit arrives"
 tags: browser
 ---
@@ -53,13 +54,6 @@ The `body` property of the fetch response is a `ReadableStream` object instance.
 ## The reader
 
 Calling `getReader()` on a `ReadableStream` object returns a `ReadableStreamDefaultReader` object, the reader. We can get it this way:
-
-```js
-const stream = fetch('/resource').then(response => response.body)
-const reader = stream.getReader()
-```
-
-or more concise:
 
 ```js
 const reader = fetch('/resource').then(response => response.body.getReader())

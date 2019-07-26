@@ -5,7 +5,7 @@ description: "Find out how to sort an array of items by date value in JavaScript
 tags: js
 ---
 
-Say you have an array of objects like this, which contains a set of date objects:
+Say you have an array of objects like this, which contains a set of [date objects](/javascript-dates/):
 
 ```js
 const activities = [
@@ -17,7 +17,7 @@ const activities = [
 
 You want to sort those activities by the `date` property.
 
-You can use the `sort()` method of `Array`, which takes a callback function, which takes as parameters 2 objects contained in the array (which we call `a` and `b`):
+You can use the `sort()` method of [`Array`](/javascript-array/), which takes a callback function, which takes as parameters 2 objects contained in the array (which we call `a` and `b`):
 
 ```js
 const sortedActivities = activities.sort((a, b) => b.date - a.date)

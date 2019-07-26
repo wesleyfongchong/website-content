@@ -1,6 +1,6 @@
 ---
 title: How to use the useReducer React hook
-date: 2019-07-17T07:00:00+02:00
+date: 2019-07-23T07:00:00+02:00
 description: "Find out what the useReducer React hook is useful for, and how to work with it!"
 tags: react
 ---

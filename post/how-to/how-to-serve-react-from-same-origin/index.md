@@ -1,6 +1,6 @@
 ---
 title: How to connect your React app to a backend on the same origin
-date: 2019-07-18T07:00:00+02:00
+date: 2019-07-24T07:00:00+02:00
 description: "How to serve a React and a server-side backend app from the same origin, without having to use CORS on the server and worrying about ports"
 tags: react
 ---

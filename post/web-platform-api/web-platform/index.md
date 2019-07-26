@@ -6,7 +6,7 @@ description: "The Web Platform is an amazing ecosystem of APIs, tools and langua
 tags: browser
 ---
 
-The Web Platform is an amazing ecosystem of APIs, tools, languages, and it is more powerful than ever today. 
+The Web Platform is an amazing ecosystem of APIs, tools, languages, and it is more powerful than ever today.
 
 I wrote a lot of tutorials and articles on this blog related to the Web Platform.
 
@@ -14,7 +14,7 @@ This post aims to organize them so you can find things more easily, and serve as
 
 ## Browser API guides
 
-First dive into the DOM, the most fundamental API exposed by the browser. Once you are familiar with this, check out the other important APIs associated with the browser. 
+First dive into the DOM, the most fundamental API exposed by the browser. Once you are familiar with this, check out the other important APIs associated with the browser.
 
 - [The DOM](/dom/)
 - [The Selectors API](/selectors-api/)

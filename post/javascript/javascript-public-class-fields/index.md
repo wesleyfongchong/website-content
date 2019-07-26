@@ -1,7 +1,7 @@
 ---
 title: JavaScript Public Class Fields
 description: "A simple tutorial on the new JavaScript Public Class Fields"
-date: 2019-07-23T07:00:00+02:00
+date: 2019-07-15T07:00:00+02:00
 tags: js
 ---
 

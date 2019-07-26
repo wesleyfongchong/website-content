@@ -1,6 +1,7 @@
 ---
 title: "The best podcasts for frontend developers"
 date: 2018-09-29T16:00:00+02:00
+updated: 2019-07-25T10:00:00+02:00
 description: "Some nice podcasts to listen to while commuting or in general when you are away from keyboard"
 tags: lab
 ---
@@ -23,6 +24,7 @@ If you are looking forward expanding your podcast catalog, here's a good place!
 - [Full Stack Radio](https://www.fullstackradio.com)
 - [JavaScript Jabber](https://devchat.tv/js-jabber)
 - [JS Party](https://changelog.com/jsparty)
+- [Ladybug Podcast](https://ladybug.dev)
 - [Modern Web](https://www.thisdot.co/modern-web)
 - [Syntax](https://syntax.fm)
 - [Toolsday](https://twitter.com/toolsday)

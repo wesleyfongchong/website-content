@@ -92,7 +92,7 @@ Those 4 lines of code do a lot behind the scenes.
 
 First, we import the `express` package to the `express` value.
 
-We instantiate an application by calling its `app()` method.
+We instantiate an application by calling the `express()` method.
 
 Once we have the application object, we tell it to listen for GET requests on the `/` path, using the `get()` method.
 

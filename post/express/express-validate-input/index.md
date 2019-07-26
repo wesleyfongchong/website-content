@@ -2,7 +2,7 @@
 title: Validating input in Express using express-validator
 description: "Learn how to validate any data coming in as input in your Express endpoints"
 date: 2018-08-29T07:00:00+02:00
-updated: 2019-07-12T07:00:00+02:00
+updated: 2019-07-20T07:00:00+02:00
 tags: express
 tags_weight: 70
 path: express-validate-input
@@ -35,13 +35,13 @@ The best way to handle validating any kind of input coming from outside in Expre
 npm install express-validator
 ```
 
-You require the `check` object from the package:
+You require the `check` and `validationResult` objects from the package:
 
 ```js
-const { check } = require('express-validator')
+const { check, validationResult } = require('express-validator');
 ```
 
-We pass an array of `check()` calls as the second argument of the `post()` call. Every `check()` call accepts the parameter name as argument:
+We pass an array of `check()` calls as the second argument of the `post()` call. Every `check()` call accepts the parameter name as argument. Then we call `validationResult()` to verify there were no validation errors. If there are any, we tell them to the client:
 
 ```js
 app.post('/form', [
@@ -49,6 +49,11 @@ app.post('/form', [
   check('email').isEmail(),
   check('age').isNumeric()
 ], (req, res) => {
+  const errors = validationResult(req)
+  if (!errors.isEmpty()) {
+    return res.status(422).json({ errors: errors.array() })
+  }
+
   const name  = req.body.name
   const email = req.body.email
   const age   = req.body.age
