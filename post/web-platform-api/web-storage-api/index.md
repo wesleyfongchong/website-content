@@ -84,7 +84,7 @@ localStorage.setItem('test', { test: 1 }) //stored as "[object Object]"
 
 ```js
 localStorage.getItem('username') // 'flaviocopes'
-localStorage.setItem('id') // '123'
+localStorage.getItem('id') // '123'
 ```
 
 ### `removeItem(key)`
