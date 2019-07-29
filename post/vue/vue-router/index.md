@@ -120,7 +120,7 @@ Here's the code:
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
 const Home  = {
   template: '<div>Home</div>'
@@ -366,7 +366,7 @@ So, say we have an Author component taking care of the first dynamic segment:
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-Vue.use(Router)
+Vue.use(VueRouter)
 
 const Author  = {
   template: '<div>Author: {{ $route.params.author}}</div>'
