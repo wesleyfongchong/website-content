@@ -54,7 +54,7 @@ A good collection of Electron apps is available on the official site: [https://e
 
 ## The Electron APIs app
 
-On the Mac App Store you can [download the Electron APIs app](https://www.notion.so/flaviocopes/Electron-a27eb785cf1349f39e6b08c82cf88eff), which is an official sample desktop app built using Electron.
+You can [download the Electron API Demos app](https://github.com/electron/electron-api-demos/releases), which is an official sample desktop app built using Electron.
 
 ![Electron app demo](electron-app-demo.png)
 
