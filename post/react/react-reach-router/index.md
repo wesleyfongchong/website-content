@@ -76,7 +76,7 @@ navigate('/private-area')
 Use the `Link` component to link to your routes using JSX:
 
 ```js
-import { navigate } from '@reach/router'
+import { Link } from '@reach/router'
 ```
 
 ```jsx
