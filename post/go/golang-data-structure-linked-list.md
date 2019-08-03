@@ -268,6 +268,7 @@ func TestIndexOf(t *testing.T) {
 }
 
 func TestHead(t *testing.T) {
+    ll.Append("zero")
     h := ll.Head()
     if "zero" != fmt.Sprint(h.content) {
         t.Errorf("Expected `zero` but got %s", fmt.Sprint(h.content))
