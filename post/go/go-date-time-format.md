@@ -33,7 +33,7 @@ An example of formatting with a custom format is:
 fmt.Println(t.Format("2006-01-02 15:04:05"))
 ```
 
-That `2006-01-02 15:04:05` string looks strange, isn't it? It's not like it's 2006 now! Bu it will print (at the time of writing) `2017-01-16 12:53:51`
+That `2006-01-02 15:04:05` string looks strange, isn't it? It's not like it's 2006 now! But it will print (at the time of writing) `2017-01-16 12:53:51`
 
 If you're new to Go, this will sound _very_ strange.
 
