@@ -140,7 +140,7 @@ Return a new string with removed white space from the end of the original string
 
 ## `Symbol.prototype.description`
 
-You can now retrieve the description of a Symbol by accessing its `description` property instead of having to use the `toString()` method:
+You can now retrieve the description of a [Symbol](/javascript-symbols/) by accessing its `description` property instead of having to use the `toString()` method:
 
 ```js
 const testSymbol = Symbol('Test')

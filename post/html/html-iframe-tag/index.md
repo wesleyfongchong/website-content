@@ -73,10 +73,10 @@ It's similar to the `sandbox` attribute, but lets us allow specific features, in
 - `accelerometer` gives access to the Sensors API Accelerometer interface
 - `ambient-light-sensor` gives access to the Sensors API AmbientLightSensor interface
 - `autoplay` allows to autoplay video and audio files
-- `camera` allows to access the camera from the getUserMedia API
+- `camera` allows to access the camera from the [getUserMedia API]((/getusermedia/))
 - `display-capture` allows to access the screen content using the getDisplayMedia API
 - `fullscreen` allows to access fullscreen mode
-- `geolocation` allows to access the Geolocation API
+- `geolocation` allows to access the [Geolocation API](/geolocation-api/)
 - `gyroscope` gives access to the Sensors API Gyroscope interface
 - `magnetometer` gives access to the Sensors API Magnetometer interface
 - `microphone` gives access to the device microphone using the getUserMedia API

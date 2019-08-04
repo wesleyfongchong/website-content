@@ -12,7 +12,7 @@ In JavaScript  we have those primitive types:
 - `Number`
 - `String`
 - `Boolean`
-- `Symbol`
+- [`Symbol`](/javascript-symbols/)
 
 and the object type:
 

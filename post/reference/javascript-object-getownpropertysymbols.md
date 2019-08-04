@@ -7,7 +7,7 @@ tags: js
 
 Get an array of symbols defined on an object.
 
-Symbols is an ES2015 feature, and this method was introduced in ES2015 as well.
+[Symbols](/javascript-symbols/) are an ES2015 feature, and this method was introduced in ES2015 as well.
 
 Example:
 

@@ -14,7 +14,7 @@ Blobs are used for many things.
 
 They can be created from content from the network. They can be saved to disk, or read from a disk. They are the underlying data structure for [`File`](/file/) used in the `FileReader` API, for example.
 
-A blob can be sent between [**Web Workers**](/web-workers/) and iFrames using the [**Channel Messaging API**](/channel-messaging-api/), and from a server to a client using the [**Push API**](/push-api/).
+A blob can be sent between [**Web Workers**](/web-workers/) and [iFrames](/html-iframe-tag/) using the [**Channel Messaging API**](/channel-messaging-api/), and from a server to a client using the [**Push API**](/push-api/).
 
 Blobs can also be referenced using URLs.
 

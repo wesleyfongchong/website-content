@@ -95,7 +95,7 @@ export default Form
 
 Here I assume the server will run on `localhost`, on the HTTP protocol, on port `3000`.
 
-I use React Hooks, and the Reach Router.
+I use React Hooks, and the [Reach Router](/react-reach-router/).
 There's no Apollo code here. Just a form and some code  to register a new cookie when we get successfully authenticated.
 
 Using the Fetch API, when the form is sent by the user I contact the server on the `/login` REST endpoint with a POST request.

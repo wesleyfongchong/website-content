@@ -8,7 +8,7 @@ tags: html
 
 The `audio` tag allows you to embed audio content in your HTML pages.
 
-This element can stream audio, maybe using a microphone via `getUserMedia()`, or it can play an audio source which you reference using the `src` attribute:
+This element can stream audio, maybe using a microphone via [`getUserMedia()`](/getusermedia/), or it can play an audio source which you reference using the `src` attribute:
 
 ```html
 <audio src="file.mp3" />

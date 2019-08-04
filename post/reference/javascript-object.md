@@ -7,7 +7,7 @@ tags: js
 
 This post documents all the `Object` built-in object properties and methods.
 
-Any value that's not of a primitive type (a string, a number, a boolean, a symbol, null or undefined) is an **object**. Even arrays or functions are, under the hoods, objects.
+Any value that's not of a primitive type (a string, a number, a boolean, a [symbol](/javascript-symbols/), null or undefined) is an **object**. Even arrays or functions are, under the hoods, objects.
 
 An `object` value can be generated using an object literal syntax:
 

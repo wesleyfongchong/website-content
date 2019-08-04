@@ -29,7 +29,7 @@ Primitive types are
 - [Number](/javascript-number/)
 - [String](/javascript-string/)
 - Boolean
-- Symbol
+- [Symbol](/javascript-symbols/)
 
 And two special types:
 

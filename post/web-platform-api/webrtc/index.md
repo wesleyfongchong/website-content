@@ -61,7 +61,11 @@ We also add the [WebRTC Adapter](https://github.com/webrtchacks/adapter) which h
 <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 ```
 
-The JS listens for a click on the button, then calls `navigator.mediaDevices.getUserMedia()` asking for the video. Then we access the name of the camera used by calling `stream.getVideoTracks()` on the result of the call to `getUserMedia()`.
+The JS listens for a click on the button, then calls `navigator.mediaDevices.getUserMedia()` asking for the video.
+
+> See the [getUserMedia() tutorial](/getusermedia/)
+
+Then we access the name of the camera used by calling `stream.getVideoTracks()` on the result of the call to `getUserMedia()`.
 
 The stream is set to be the source object for the `video` tag, so that playback can happen:
 

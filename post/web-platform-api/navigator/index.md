@@ -10,7 +10,7 @@ The `window.navigator` property exposed by browsers points to a **Navigator obje
 The standard and widely implemented properties include:
 
 - `cookieEnabled` true if [cookies](/cookies/) are enabled
-- `geolocation` points to the `Geolocation` object used by the **Geolocation API**
+- `geolocation` points to the `Geolocation` object used by the [**Geolocation API**](/geolocation-api/)
 - `language` returns a string representing the language currently active in the browser
 - `onLine` returns true if the browser is online (the browsers interpret this in different ways, be aware)
 - `serviceWorker` the `ServiceWorkerContainer` object assigned to the document (see [Service Workers](/service-workers/))

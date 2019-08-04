@@ -37,7 +37,7 @@ These are the objects:
 - [`Object`](/javascript-object/)
 - [`RegExp`](/javascript-regular-expressions/)
 - [`String`](/javascript-string/)
-- `Symbol`
+- [`Symbol`](/javascript-symbols/)
 
 and errors:
 

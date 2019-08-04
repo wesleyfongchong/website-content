@@ -120,7 +120,7 @@ self.addEventListener('message', event => {
 
 ## An example with an iframe
 
-Here's an example of a communication happening between a document and an iframe embedded into it.
+Here's an example of a communication happening between a document and an [iframe](/html-iframe-tag/) embedded into it.
 
 The main document defines an `iframe` and a `span` where we'll print a message that's sent from the `iframe` document. As soon as the `iframe` document is loaded, we send it a message on the `channel` we created.
 
