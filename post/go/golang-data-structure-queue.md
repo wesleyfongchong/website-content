@@ -119,6 +119,9 @@ func TestEnqueue(t *testing.T) {
 }
 
 func TestDequeue(t *testing.T) {
+    s.Enqueue(1)
+	s.Enqueue(1)
+	s.Enqueue(1)
     s.Dequeue()
     if size := len(s.items); size != 2 {
         t.Errorf("wrong count, expected 2 and got %d", size)
