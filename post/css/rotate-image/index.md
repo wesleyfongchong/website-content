@@ -21,7 +21,7 @@ You can also choose to add a `rotate` class to an element, instead of targeting 
 }
 ```
 
-tweak the `2s` to slow down of speed up the rotation period.
+tweak the `2s` to slow down or speed up the rotation period.
 
 Then add this line, outside of any selector:
 
