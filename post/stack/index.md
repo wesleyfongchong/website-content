@@ -1,7 +1,7 @@
 ---
 title: The stack I use to run this blog
 date: 2018-06-07T14:07:09+02:00
-updated: 2018-12-22T07:07:09+02:00
+updated: 2019-07-26T07:07:09+02:00
 description: "In this post I describe how I run my site, and my workflows"
 tags: lab
 ---
@@ -12,10 +12,13 @@ tags: lab
 - [The theme](#the-theme)
 - [Where do I host the site](#where-do-i-host-the-site)
 - [The posts](#the-posts)
+- [What do I do to promote the posts](#what-do-i-do-to-promote-the-posts)
 - [My workflow for posting an article](#my-workflow-for-posting-an-article)
 - [Post images](#post-images)
 - [The newsletter](#the-newsletter)
 - [Twitter](#twitter)
+- [Books](#books)
+- [That's it!](#thats-it)
 
 <!-- /TOC -->
 
@@ -29,7 +32,9 @@ The reason I chose Hugo are:
 
 - generates plain HTML files, which make it faster than having to process every request server-side
 - a static site is more flexible in terms of deployment and hosting
-- it's really fast, my local live reloading is instant and I don't have to wait 10 seconds to recompile (not every platform can do this on my 2010 Macbook Pro)
+- it's really fast, my local live reloading is instant and I don't have to wait 10 seconds to recompile (~~not every platform can do this on my 2010 Macbook Pro~~ my 2018 MacBook Air is faster but I still welcome speed)
+- I like Go
+- it's simple
 
 ## The theme
 
@@ -37,17 +42,17 @@ I originally used the [Ghostwriter theme](https://themes.gohugo.io/ghostwriter/)
 
 ## Where do I host the site
 
-I use [Netlify](https://www.netlify.com/). I used to run on Firebase Hosting, but I moved to Netlify during an outage of Firebase and I never looked back - it's made exclusively for static sites, and it's really awesome. I wrote a blog post about Netlify, [check it out](/netlify/). I also wrote a post where I describe [how I automatically deploy my posts and schedule them](/netlify-auto-deploy/).
+I use [Netlify](/netlify/). Here I describe [how I automatically deploy my posts and schedule them](/netlify-auto-deploy/).
 
-Find out [why you should focus on your own platform](/build-your-platform/).
+Don't exclusively write on Medium or on other platforms. Find out [why you should focus on your own platform](/build-your-platform/).
 
 ## The posts
 
-I write the posts using Markdown, which make it a great format because it's very portable - I could move to any other static site generator in a minute if I want, since using Markdown there's no lock-in, but I'm very happy with Hugo.
+I write the posts using Markdown in [Bear](https://bear.app/) - awesome app. Markdown is a great format because it's very portable - I could move to any other static site generator in a minute if I want, since using Markdown there's no lock-in, but I'm very happy with Hugo.
 
 ## What do I do to promote the posts
 
-I post them on Twitter and add them in the email newsletter which I send every week. That's basically it. Sometimes if I think a post can be a good one, I post it on Hacker News or Reddit, but it mostly does nothing.
+I post them on Twitter and add them in the email newsletter which I send every week. That's basically it. I used to post articles on Hacker News or Reddit, but it mostly did nothing all the times I tried, so I stopped doing it. I'd still recommend doing it when starting out.
 
 Posts are automatically picked up by Google. Find out my [SEO tips](/seo-for-developers/).
 
@@ -81,7 +86,9 @@ Sometimes I use an app to generate a banner image for the post, which is also us
 
 I used to create an ASCII-text image, using [TAAG](http://patorjk.com/software/taag/).
 
-More recently I started adding images I draw using the iPad and an Apple Pencil. I use the [Sketches app](http://tayasui.com/sketches/), it's great. I am not gifted at all for drawing, I just like doing something kind of funny. It's my own blog, so I can publish crappy artwork if I like.
+I sometimes draw images using the iPad and an Apple Pencil. I use the [Sketches app](http://tayasui.com/sketches/), it's great. I am not gifted at all for drawing, I just like doing something kind of funny. It's my own blog, so I can publish crappy artwork if I like.
+
+> 2019 update: I rarely make banner images now
 
 ## The newsletter
 
@@ -93,17 +100,21 @@ Find out [why you should create an email list](/why-email-list/).
 
 ## Twitter
 
-Twitter is a great platform for me. I have more than 2000 followers, although I don't really know how that works and I think lots of those never see what I post.
+Twitter is a great platform for me. I have more than 9000 followers, which is not huge, but it's not a small number.
 
 Even though I joined Twitter in 2007, I never really used it effectively. I only started a few months ago to get any kind of interaction with the people out there 🙃
 
-It's pretty cool. I also follow some hashtags where newbies hang out, and I try to help sometimes with their questions.
-
-I also have a cool script that runs on [Glitch](https://glitch.com/) and it's triggered 2 times a day by IFTTT. I explain it [here](/tutorial-repurpose-posts-twitter/). Basically I have a list of posts on Airtable that I posted in the past and I want to repurpose on Twitter.
+I have a script that runs on [Glitch](https://glitch.com/) and it's triggered 2 times a day by IFTTT. I explain it [here](/tutorial-repurpose-posts-twitter/). Basically I have a list of posts on Airtable that I posted in the past and I want to repurpose on Twitter.
 
 It's sad to write a post, share it once and never post it again, but doing it manually it's 1) tedious 2) not something I can do consistently 3) had to track which posts I shared already.
 
 It's a job perfect for a machine, that posts them while I am sleeping, 2 times every day.
+
+## Books
+
+I wrote 8 free ebooks. I use GitBook to write them, the original self-hosted GitBook project [available here](https://github.com/GitbookIO/gitbook), not the thing that you find on gitbook.com.
+
+As for my blog posts, I write the drafts using Bear and when I think they are ready I export to a folder and I create an index. That's basically it. I made a template for the books which I reuse, and I'm pretty happy about it.
 
 ## That's it!
 

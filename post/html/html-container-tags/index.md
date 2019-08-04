@@ -134,15 +134,15 @@ The `header` tag represents a part of the page that is the introduction. It can 
 
 ### `main`
 
-The `main` tag represents the main part of an article:
+The `main` tag represents the main part of a page:
 
 ```html
-<article>
+<body>
   ....
   <main>
     <p>....</p>
   </main>
-</div>
+</body>
 ```
 
 ### `footer`

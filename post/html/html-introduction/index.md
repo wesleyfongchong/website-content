@@ -226,21 +226,21 @@ not like this:
 
 ### White space
 
-Pretty important. In HTML, white space is not relevant. Space is removed from the equation.
+Pretty important. In HTML, even if you add multiple white spaces into a line, it's collapsed by the browser's CSS engine.
 
-To the browser,
+For example the rendering of this paragraph
 
 ```html
 <p>A paragraph of text</p>
 ```
 
-is same as
+is the same as this:
 
 ```html
 <p>        A paragraph of text</p>
 ```
 
-and same as
+and the same as this:
 
 ```html
 <p>A paragraph
@@ -249,7 +249,9 @@ of
            text          </p>
 ```
 
-So you can use any syntax you like. I'd say, like the syntax that makes things more organized.
+> Using the [`white-space` CSS property](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space) you can change how things behave. You can find more information on how CSS processes white space in the [CSS Spec](https://www.w3.org/TR/CSS2/text.html#white-space-model)
+
+I'd say use the syntax that makes things visually more organized and easier to read, but you can use any syntax you like.
 
 I typically route for
 

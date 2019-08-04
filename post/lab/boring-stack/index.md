@@ -47,7 +47,7 @@ Lots and lots of man hours are lost forever as we collectively jump from old lib
 
 > "Just use MySQL, the boring tech revolution is here" Marty Weiner, Reddit CTO, 2016
 
-Most of the tools that developers consider industry standards are build in huge companies like Google and Facebook and they are perfect for their needs. A small team or solo developer might happen to have the same needs, but is that likely? Or is it all driven by the peer pressure and hype? Or by marketing?
+Most of the tools that developers consider industry standards are built by huge companies like Google and Facebook and they are perfect for their needs. A small team or solo developer might happen to have the same needs, but is that likely? Or is it all driven by the peer pressure and hype? Or by marketing?
 
 Is the thing you want to do perfectly achievable with plain JavaScript and the [DOM](/dom/) APIs, or do you really need to rewrite all your application in [React](/react/) and spend days trying to make [Webpack](/webpack/) do what you want? Sometimes that's a great choice, sometimes a less than perfect one. Working with the DOM APIs feels boring, but that might make your app much faster, while everyone else in the engineering circle says it's going to be a mess, you might ship it in 10x less time and it might work 10x better.
 

@@ -1,25 +1,25 @@
 ---
 title: All the software projects I made in the past
-date: 2019-08-21T07:00:09+02:00
+date: 2019-07-29T07:00:09+02:00
 description: "A long list of the projects I made throughout the years"
 tags: lab
 ---
 
-I started programming when I was 15, and since I'm now 36, I have a long list of projects I built that looking back were complete failures, **but** all contributed to creating the 36 years old **solopreneur**.
+> Note: this list does not include projects made as a contractor for other companies or individuals. Just the projects I built for myself as a solo founder / indie hacker / maker
 
-In the meantime I graduated in Computer Engineering and worked for 10 years as a contractor and freelancer for several companies.
+I started programming when I was 15, and since I'm now 36, I have a long list of projects I built that eventually failed, **but** all contributed to creating the 36 years old **solopreneur** I'm now.
 
-The first time I met programming was with the Amiga that came included with the encyclopedia package 😄. There was something called RexxMast which you could open and you could type anything. The only thing was I didn't know what to type. There was no Internet at the time. Not as we know it.
+The first time I met programming was with the Amiga that came included with the encyclopedia package 😄. There was something called RexxMast which you could open and you could type anything. The only thing was I didn't know what to type. There was no Internet at the time to find tutorials. Not as we know it today.
 
 ![](rexx.png)
 
-In 1997, I became a huge Linux fan, when Linux was sold in 4-CD packs (you could not really download it from the Internet, as it would take an overnight telephone call, blocking the line).
+In 1997, I became a huge Linux fan, when Linux was sold in 4-CD packs. I could not really download it from the Internet from home, as I had a 33.6Kbps connection and it would take maybe 3 days to download them, blocking the telephone line which was the only way to contact someone - plus, sometimes the connection just broke in the middle of the download. Plus, the Internet contract had a limit on the hours I could use (good times!)
 
-I started making little websites, bought a huge JavaScript book covering Netscape 3.0 in 1997, which means that technically I'm a JS dev since 20 years (but that was a **very** different JS).
+I started making little websites, bought a huge JavaScript book covering Netscape 3.0 in 1997 in London when I was studying english abroad, which means that technically I'm a JS dev since 20 years (but that was a **very** different JS).
 
-I learned PHP 3 which at the time was really advanced, printing the entire reference manuals (a lot of wasted paper). I think I ended up with a 10cm self-printed book.
+I learned PHP 3 which at the time was really advanced, printing the entire reference manuals (a lot of wasted paper). I think I ended up with a 15cm self-printed book.
 
-Here is the first project I ever published: a website dedicated to Linux, in italian. I wanted to be a resource for the italian scene, which was very, very small at the time. The site launched on my ISP servers, which thanks to a friend (and "co-founder" of the project) that worked there. Domains and hosting used to cost a lot back then, but they were using Linux, they supported the project and we ended up with a nice subdomain: `linux.clavis.it`.
+Here is the first project I ever published: a website dedicated to Linux, in italian. I wanted to be a resource for the italian scene, which was very, very small at the time. The site launched on my ISP servers, which thanks to a friend (and co-founder of the project) that worked there. Today we'd probably call it a startup. Domains and hosting used to cost _a lot_ back then, but they were using Linux at that ISP, they supported the project and we ended up with a nice subdomain: `linux.clavis.it`.
 
 ![](linux.jpg)
 
@@ -33,7 +33,9 @@ At the time I knew some C, some Java and dabbled with Web stuff.
 
 I wrote a few articles and shared in a forum (I remember one about AJAX), only to be told they were poorly written, so I stopped (we can talk on the importance of getting good feedback early on...).
 
-In 2005 I got a Mac, it was an awesome machine, an entry level iBook 12". So white. So small. So nice. Now it looks like thrash, but I remember how call it was that it could talk, out of the box!
+In 2005 I got my first a Mac, it was an awesome little machine, an entry level iBook 12". So white. So small. So nice. I just liked the product and I wanted to install Linux on it, which I was using as a desktop OS at the time, but a friend of mine over a beer said "try OSX and you'll never go back to Linux". He was right!
+
+Now it looks very old school, but I remember how cool it was that it could talk, out of the box! Spent a while playing with the "isn't it nice to have a computer that will talk to you" thing that OSX did.
 
 ![](ibook.jpg)
 
@@ -71,9 +73,9 @@ A very nice marketing tool, one could say, but didn't get much traction.
 
 After a couple years I created my first Joomla plugin, and this time it was a paid plugin. It did something very easy: at the time when you registered on the site, you then had to log in separately, which was a nonsense in my opinion. The plugin took me 1 hour to write, while on the sofa, and sold really well for the ROI.
 
-Encouraged by the initial success, the products strategy then revolved around creating a more widespread portfolio of plugins. I launched 15 of them. I now actively maintain 4 of them.
+Encouraged by the initial success, the products strategy then revolved around creating a more widespread portfolio of plugins. I launched 15 of them (now unmaintained any more).
 
-One of these is [JooCommerce](https://joocommerce.com), the best and simplest to use Joomla e-commerce extension.
+One of these was JooCommerce, which I considered the best and simplest to use Joomla e-commerce extension.
 
 ![](joocommerce-landing.png)
 
@@ -89,9 +91,9 @@ Overall those plugins have been purchased by thousands of developers.
 
 Many of them use **Ember.js** for their admin-side interface, and of course PHP as they are built on top of a PHP CMS.
 
-I created about 2 dozens iPhone and iPad apps and games. Now I removed them all from the store. I remember a [windsurfing sessions tracker](https://itunes.apple.com/it/app/windsurf/id453000648?mt=8), and a [Naval Battles app](http://www.148apps.com/app/432893420/) which was amazing. Countless hours learning Objective-C and iOS.
+I created about 2 dozens iPhone and iPad apps and games. Now I removed them all from the store. I remember a windsurfing sessions tracker, and a [Naval Battles app](http://www.148apps.com/app/432893420/) which was amazing to make. Countless hours learning Objective-C and iOS.
 
-I made a nice 2D graphics game [involving birds and a squirrel](http://www.148apps.com/app/517486655/) with a cool usage of game physics to emulate gravity (Cocos2D), now retired.
+I made a nice 2D graphics game [involving birds and a squirrel](http://www.148apps.com/app/517486655/) with a cool usage of game physics to emulate gravity (Cocos2D).
 
 I wrote a few apps about music, showing lyrics and song previews of artists using the iTunes APIs, but was asked to remove them due to copyright issues.
 
@@ -101,7 +103,7 @@ Then I decided to migrate my Joomla eCommerce plugin to WordPress, as the user b
 
 I released it with a splash, no one seemed to download it even if it was free, so I removed it after a few months. It was called CommerceKit. A cool name, until Apple released a library with the same name. It had an innovative approach. While all WP plugins were going into the "more complex" route, I aimed for simplicity and integration. No addons, for example, was a big decision.
 
-I created and released half a dozen utility [OSX apps](https://tailapps.com) based on a web stack (**Ember.js** and MacGap), before Electron existed, most notably a code snippets database
+I created and released half a dozen utility OSX apps based on a web stack (**Ember.js** and MacGap), before Electron existed, most notably a code snippets database
 
 ![](code-snippet.jpg)
 
@@ -113,11 +115,11 @@ Utility apps.
 
 For years they sold a few units per week, but basically none created a relevant income stream.
 
-While working for the Grav CMS as a part-time developer, I migrated my Joomla ecommerce plugin idea to that CMS, and created an open source ecommerce plugin with commercial addons.
+While I was working for the Grav CMS as a core developer, as a contractor, I migrated my Joomla ecommerce plugin idea to that CMS, and created an open source ecommerce plugin with commercial addons. I called it GravCart:
 
 ![](gravcart.png)
 
-I now don't actively maintain it, as adoption was very slow and I envisioned a bit more collaboration from the community as well, but that didn't happen.
+I now don't actively maintain it, as adoption was slow and I envisioned a bit more collaboration from the community as well, but that didn't happen.
 
 The last public project I built was **Gitometer**, a Git repository stats visualization tool. My idea was to have a private portion of the app for companies, and a public part for individual users.
 
@@ -127,6 +129,8 @@ The last public project I built was **Gitometer**, a Git repository stats visual
 
 It used the GitHub GraphQL APIs to gather the data. I wrote it in Laravel first, then migrated to Go to make it faster, but after pitching the idea to some GitHub users it was not well received, and I just used it for some tutorials.
 
-It's now been 2 years since my last public project release, and I decided to stop making software projects for sale.
+It's now been 2 years since my last public project release, and I decided to stop making software projects with the goal of making them profitable businesses.
 
-After more than a decade, I am now focusing on creating educational material, projects just for fun, things to help other people and empower them to create their own vision for the future.
+After more than a decade, I found my way and maybe true calling in teaching all I know to beginners, so I am now focusing on creating educational material, projects just for fun, things to help other people and empower them to create their own vision for the future.
+
+This website and my books and courses, basically.

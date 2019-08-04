@@ -164,7 +164,7 @@ You can add a `th` tag as the first element inside a `tr` that's not the first `
     <td>Col 3</td>
   </tr>
   <tr>
-    <th>Row 1</th>
+    <th>Row 2</th>
     <td>Col 2</td>
     <td>Col 3</td>
   </tr>

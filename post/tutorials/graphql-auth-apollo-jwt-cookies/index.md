@@ -1,6 +1,6 @@
 ---
 title: "How to authenticate using GraphQL Cookies and JWT"
-date: 2019-07-29T07:00:00+02:00
+date: 2019-08-21T07:00:00+02:00
 description: "An authentication process example for a GraphQL API powered by Apollo, using Cookies and JWT"
 tags: graphql
 ---

@@ -63,7 +63,9 @@ Check this example on Glitch of an [animation built using of setTimeout()](https
 <div class="glitch-embed-wrap" style="height: 681px; width: 100%;">
   <iframe src="https://glitch.com/embed/#!/embed/flavio-settimeout-animation?path=script.js&previewFirst=true" alt="flavio-settimeout-animation on glitch" style="height: 100%; width: 100%; border: 0;"></iframe>
 </div>
+
 <br>
+
 `requestAnimationFrame` is the standard way to perform animations, and it works in a very different way event though the code looks very similar to the setTimeout/setInterval code:
 
 ```js
@@ -111,7 +113,7 @@ If you used a higher frequency call for your animation function:
 
 ![Too frequent timeline](timeline-too-frequent.png)
 
-Notice how in each frame we call 4 animation steps, before any rendering happens, an this will make the animation feel very choppy.
+Notice how in each frame we call 4 animation steps, before any rendering happens, and this will make the animation feel very choppy.
 
 What if setTimeout cannot run on time due to other code blocking the event loop? We end up with a missed frame:
 

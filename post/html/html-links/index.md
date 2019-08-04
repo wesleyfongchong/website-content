@@ -31,12 +31,19 @@ Example, I'm on the page `https://flaviocopes.com/axios/` and I have these links
 - `/test` once clicked brings me to `https://flaviocopes.com/test`
 - `test` once clicked brings me to `https://flaviocopes.com/axios/test`
 
-Links tags can include other things inside them, not just text. For example images:
+Link tags can include other things inside them, not just text. For example, images:
 
 ```html
 <a href="https://flaviocopes.com">
-	<img src="test.jpg" />
+	<img src="test.jpg">
 </a>
 ```
 
-or any other elements.
+or any other elements, except other `<a>` tags.
+
+
+If you want to open the link in a new tab, you can use the `target` attribute:
+
+```html
+<a href="https://flaviocopes.com" target="_blank">open in new tab</a>
+```
