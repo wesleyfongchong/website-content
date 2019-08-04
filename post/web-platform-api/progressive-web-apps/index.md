@@ -41,7 +41,7 @@ This technique was originally introduced by Google in 2015, and proves to bring 
 
 Developers have access to building **almost-first-class** applications using a web stack, which is always considerably easier and cheaper than building native applications, especially when considering the implications of building and maintaining cross-platform apps.
 
-Devs can benefit from a **reduced installation friction**, at a time when having an app in the store does not actually bring anything in terms of discoverability for 99,99% of the apps, and Google search can provide the same benefits if not more.
+Devs can benefit from a **reduced installation friction**, at a time when having an app in the store does not actually bring anything in terms of discoverability for 99.99% of the apps, and Google search can provide the same benefits if not more.
 
 A Progressive Web App is a website which is developed with certain technologies that make the mobile experience much more pleasant than a normal mobile-optimized website, to a point that it's almost working like a native app, as it offers the following features:
 
@@ -94,6 +94,7 @@ Performance is comparable to native apps, since what you build is essentially a 
 In the last section you saw the main _competitors_ of Progressive Web Apps. So how do PWAs stand compared to them, and what are their main features?
 
 > Remember, currently Progressive Web Apps are Android-only
+> IOS support was added in March 2019
 
 ### Features
 
