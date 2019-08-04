@@ -12,19 +12,19 @@ The HTTP core module is a key module to Node networking.
 <!-- TOC -->
 
 - [Properties](#properties)
-  - [`http.METHODS`](#httpmethods)
-  - [`http.STATUS_CODES`](#httpstatus_codes)
-  - [`http.globalAgent`](#httpglobalagent)
+  - [`http.METHODS`](#http-methods)
+  - [`http.STATUS_CODES`](#http-status-codes)
+  - [`http.globalAgent`](#http-globalagent)
 - [Methods](#methods)
   - [`http.createServer()`](#httpcreateserver)
-  - [`http.request()`](#httprequest)
-  - [`http.get()`](#httpget)
+  - [`http.request()`](#http-request)
+  - [`http.get()`](#http-get)
 - [Classes](#classes)
-  - [`http.Agent`](#httpagent)
-  - [`http.ClientRequest`](#httpclientrequest)
-  - [`http.Server`](#httpserver)
-  - [`http.ServerResponse`](#httpserverresponse)
-  - [`http.IncomingMessage`](#httpincomingmessage)
+  - [`http.Agent`](#http-agent)
+  - [`http.ClientRequest`](#http-clientrequest)
+  - [`http.Server`](#http-server)
+  - [`http.ServerResponse`](#http-serverresponse)
+  - [`http.IncomingMessage`](#http-incomingmessage)
 
 <!-- /TOC -->
 
