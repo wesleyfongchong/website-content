@@ -7,7 +7,7 @@ tags: vue
 
 [Tailwind](https://tailwindcss.com/) is a pretty cool CSS framework.
 
-In this post I'm going to show you how to use it on a Vue app.
+In this post I'm going to show you how to use Tailwind (v1.0.5) on a Vue app.
 
 It's 4 simple steps:
 
@@ -78,7 +78,7 @@ Note: if you set Vue CLI to store the configuration in `package.json`, make sure
 Now create a CSS file in `src/assets/css/tailwind.css` and add
 
 ```css
-@tailwind preflight;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 ```
