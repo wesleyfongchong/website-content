@@ -6,7 +6,7 @@ description: "Discover the basics of working with the HTML `video` tag"
 tags: html
 ---
 
-The `video` tag allows you to embed audio content in your HTML pages.
+The `video` tag allows you to embed video content in your HTML pages.
 
 This element can stream video, using a webcam via [`getUserMedia()`](/getusermedia/) or **WebRTC**, or it can play a video source which you reference using the `src` attribute:
 

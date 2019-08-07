@@ -2,6 +2,7 @@
 title: The Node Event emitter
 description: "How to work with custom events in Node"
 date: 2018-08-19T07:00:00+02:00
+updated: 2019-08-04T07:00:00+02:00
 tags: node
 tags_weight: 54
 path: node-event-emitter
@@ -16,7 +17,8 @@ This module, in particular, offers the `EventEmitter` class, which we'll use to 
 You initialize that using
 
 ```js
-const eventEmitter = require('events').EventEmitter()
+const EventEmitter = require('events')
+const eventEmitter = new EventEmitter()
 ```
 
 This object exposes, among many others, the `on` and `emit` methods.
