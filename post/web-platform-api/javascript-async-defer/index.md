@@ -56,13 +56,13 @@ When you first learn HTML, you're told script tags live in the `<head>` tag:
 </html>
 ```
 
-As I told earlier, when the parser finds this line, it goes to fetch the script and executes it. _Then_, after it's done with this task, it goes on to parse the body.
+As I told you earlier, when the parser finds this line, it goes to fetch the script and executes it. _Then_, after it's done with this task, it goes on to parse the body.
 
-This is bad because there is a lot of delay introduced. A very common solution to this issue is to put the `script` tag to the bottom of the page, just before the closing `</body>` tag.
+This is bad because there is a lot of delay introduced. A very common solution to this issue is to put the `script` tag at the bottom of the page, just before the closing `</body>` tag.
 
-Doing so, the script is loaded and executed after all the page is already parsed and loaded, which is a **huge improvement** over the `head` alternative.
+In doing so, the script is loaded and executed after all the page is already parsed and loaded, which is a **huge improvement** over the `head` alternative.
 
-This is the best thing you can do, if you need to support older browsers that do not support two relatively recent features of HTML: `async` and `defer`.
+This is the best thing you can do if you need to support older browsers that do not support two relatively recent features of HTML: `async` and `defer`.
 
 ## Async and Defer
 
@@ -80,7 +80,7 @@ if you specify both, `async` takes precedence on modern browsers, while older br
 
 > For the support table, check caniuse.com for async <https://caniuse.com/#feat=script-async> and for defer <https://caniuse.com/#feat=script-defer>
 
-These attributes make only sense when using the script in the `head` portion of the page, and they are useless if you put the script in the `body` footer like we saw above.
+These attributes only make sense when using the script in the `head` portion of the page, and they are useless if you put the script in the `body` footer like we saw above.
 
 ## Performance comparison
 
@@ -154,4 +154,4 @@ This is the scenario that triggers the faster `domInteractive` event.
 
 Considering the pros of `defer`, is seems a better choice over `async` in a variety of scenarios.
 
-Unless you are fine with delaying the first render of the page, making sure that when the page is parsed the JavaScript you want is already executed.
+Unless you are fine with delaying the first render of the page, make sure that when the page is parsed the JavaScript you want is already executed.
