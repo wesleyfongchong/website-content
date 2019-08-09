@@ -52,7 +52,7 @@ On the drop target:
 
 ## Overview of a drag and drop operation and the events fired
 
-When the user starts dragging a *draggable element*, clicking on it with the mouse and moving the mourse, or also tapping and keeping the tap and then moving the selection, the `dragstart` event is fired on it:
+When the user starts dragging a *draggable element*, clicking on it with the mouse and moving the mouse, or also tapping and keeping the tap and then moving the selection, the `dragstart` event is fired on it:
 
 ```js
 element.addEventListener('dragstart', event => {
