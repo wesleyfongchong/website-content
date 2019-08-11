@@ -57,7 +57,7 @@ Since we do so, we also need to use the `sizes` attribute:
 			 dog-1400.png 1400w">
 ```
 
-In this example the `(max-width: 500px) 100vw, (max-width: 900px) 50vw, 800px` string in the `sizes` attribute describes the size of the image in relation to the viewport, with multiple conditions separated by a semicolon.
+In this example the `(max-width: 500px) 100vw, (max-width: 900px) 50vw, 800px` string in the `sizes` attribute describes the size of the image in relation to the viewport, with multiple conditions separated by a comma.
 
 The media condition `max-width: 500px ` sets the size of the image in correlation to the  viewport width. In short, if the window size is < 500px, it renders the image at 100% of the window size.
 
