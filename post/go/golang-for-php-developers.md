@@ -132,7 +132,7 @@ This is because Go has clear and forced conventions. The built-in tooling provid
 
 This is different than JS [ESLint](/eslint/) / JSHint, as those tools are team-wide application. As in everything JS, you can customize anything in the preferences. `gofmt` is one, no configuration, that-is-the-way-to-go-style.
 
-This is great to provide cnsistency on your own code (code you wrote 5 years ago in PHP or JavaScript might be **very** different from your current conventions and preferences) and on code that _everyone_ distributes.
+This is great to provide consistency on your own code (code you wrote 5 years ago in PHP or JavaScript might be **very** different from your current conventions and preferences) and on code that _everyone_ distributes.
 
 Imagine no more internal team discussions on the best code styling, imagine all PRs to your open source project formatted and linted in the same way. Spaces vs0 tabs, save mind cycles - it’s tabs. Braces on same line or in the next? One the same line, always (there’s a reason for this, and it’s to allow to omit semicolons).
 
