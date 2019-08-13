@@ -29,7 +29,7 @@ You can call `querySelectorAll()` on all elements with a specific class, then us
 document.querySelectorAll('.some-class').forEach(item => {
   item.addEventListener('click', event => {
     //handle click
-  }
+  })
 })
 ```
 
@@ -39,7 +39,7 @@ If you don't have a common class for your elements you can build an array on the
 [document.querySelector('.a-class'), document.querySelector('.another-class')].forEach(item => {
   item.addEventListener('click', event => {
     //handle click
-  }
+  })
 })
 ```
 
