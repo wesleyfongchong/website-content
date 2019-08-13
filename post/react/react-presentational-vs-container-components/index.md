@@ -11,7 +11,7 @@ Each of those have their unique characteristics.
 
 Presentational components are mostly concerned with generating some markup to be outputted.
 
-They don't manage any kind of state, except for state related the the presentation
+They don't manage any kind of state, except for state related to the presentation
 
 Container components are mostly concerned with the "backend" operations.
 
