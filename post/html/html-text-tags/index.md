@@ -156,7 +156,7 @@ This is how browsers typically render them:
 
 ![Definition list](definition-list.png)
 
-I must say you rarely see them in the wild, for sure not much as `ul` and `ol`, but sometimes they might be u seful.
+I must say you rarely see them in the wild, for sure not much as `ul` and `ol`, but sometimes they might be useful.
 
 ## Other text tags
 
