@@ -56,7 +56,7 @@ class Converter extends React.Component {
 }
 ```
 
-when using the the property initializer syntax with Babel (enabled by default in `create-react-app`), otherwise you need to bind it manually in the constructor:
+when using the property initializer syntax with Babel (enabled by default in `create-react-app`), otherwise you need to bind it manually in the constructor:
 
 ```js
 class Converter extends React.Component {

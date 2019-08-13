@@ -191,7 +191,7 @@ With
 - `document.createElement()`: creates a new Element Node
 - `document.createTextNode()`: creates a new Text Node
 
-you can create new elements, and add them the the DOM elements you want as children, by using `document.appendChild()`:
+you can create new elements, and add them to the DOM elements you want as children, by using `document.appendChild()`:
 
 ```js
 const div = document.createElement('div')

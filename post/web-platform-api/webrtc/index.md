@@ -187,7 +187,7 @@ document.querySelector('button#login').addEventListener('click', event => {
 })
 ```
 
-`sendMessage` is a wrapper function for sending a JSON-encoded message the the Websocket server. We use a `type` parameter to separate different kind of messages we'll send:
+`sendMessage` is a wrapper function for sending a JSON-encoded message to the Websocket server. We use a `type` parameter to separate different kind of messages we'll send:
 
 ```js
 const sendMessage = message => {

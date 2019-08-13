@@ -162,7 +162,7 @@ We already used a `ReadableStream` object before. Let's now create a brand new o
 const stream = new ReadableStream()
 ```
 
-This stream now is very useful at all. It is an empty stream, and if anyone wants to read from it, there's no data.
+This stream now is not very useful. It is an empty stream, and if anyone wants to read from it, there's no data.
 
 We can define what how the stream behaves by passing an object during the initialization. This object can define those properties:
 

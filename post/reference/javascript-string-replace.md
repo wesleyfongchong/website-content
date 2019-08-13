@@ -27,7 +27,7 @@ You can pass a [regular expression](/javascript-regular-expressions/) as the fir
 
 The second parameter can be a function. This function will be invoked when the match is found (or for *every* match foundm if using a global regex `/g`), with a number of arguments:
 
-- the the string that matches the pattern
+- the string that matches the pattern
 - an integer that specifies the position within the string where the match occurred
 - the string
 

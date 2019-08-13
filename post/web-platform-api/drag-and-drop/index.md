@@ -1,7 +1,7 @@
 ---
 title: "How to use the Drag and Drop API"
 date: 2019-08-09T07:00:00+02:00
-description: "Discover how to use the Drag and Drop API() to create interactive experiences for your users"
+description: "Discover how to use the Drag and Drop API to create interactive experiences for your users"
 tags: browser
 ---
 

@@ -46,7 +46,7 @@ We're not limited to just using media types in the `media` attribute and in the 
 
 ## Media feature descriptors
 
-First, let's introduce **media feature descriptors**. They are additional keywords that we can add to the `media` attribute of `link` or the the `@import` declaration, to express more conditionals over the loading of the CSS.
+First, let's introduce **media feature descriptors**. They are additional keywords that we can add to the `media` attribute of `link` or to the `@import` declaration, to express more conditionals over the loading of the CSS.
 
 Here's the list of them:
 
@@ -135,7 +135,7 @@ We can use `not` to negate a media query:
 
 ## Media queries
 
-All those above rules we saw applied to @import or the the `link` HTML tag can be applied inside the CSS, too.
+All those above rules we saw applied to @import or to the `link` HTML tag can be applied inside the CSS, too.
 
 You need to wrap them in a `@media () {}` structure.
 

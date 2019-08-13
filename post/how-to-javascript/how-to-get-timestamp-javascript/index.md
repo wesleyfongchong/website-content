@@ -46,7 +46,7 @@ To get the timestamp expressed in seconds, convert it using:
 Math.floor(Date.now() / 1000)
 ```
 
-> Note: some tutorials use `Math.round()`, but that will approximate the the next second even if the second is not fully completed.
+> Note: some tutorials use `Math.round()`, but that will approximate to the next second even if the second is not fully completed.
 
 or, less readable:
 
