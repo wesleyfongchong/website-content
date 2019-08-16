@@ -404,7 +404,7 @@ This is very useful to start the editor and open a new window with the content o
 
 `code -n` will create a new window.
 
-A useful thing that's not always knows is that VS Code can quickly show the diff between two files, with `code --diff file1.js file2.js`.
+A useful thing that's not always known is that VS Code can quickly show the diff between two files, with `code --diff file1.js file2.js`.
 
 ## Solving high usage CPU issues
 
