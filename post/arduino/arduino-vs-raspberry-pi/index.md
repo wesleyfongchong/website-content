@@ -30,7 +30,7 @@ Turns out, they are very, very different.
 Starting from the core. Arduino comes with an 8-bit **microcontroller**. The Raspberry Pi comes with a 64-bit **microprocessor**.
 
 Arduino has 2 Kilobytes of RAM.
-Raspberry Pi has 1GB of RAM. (500x)
+Raspberry Pi has 1GB of RAM. (500,000x more)
 
 In terms of I/O, Arduino has an USB-B port that can be used by a computer to transfer new programs to run, a power input and a set of I/O pins.
 
