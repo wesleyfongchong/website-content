@@ -18,7 +18,7 @@ a.reduce((accumulator, currentValue, currentIndex, array) => {
 Example:
 
 ```js
-;[1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => {
+[1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => {
   return accumulator * currentValue
 }, 1)
 
