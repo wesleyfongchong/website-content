@@ -47,7 +47,7 @@ Another very important feature of Hooks is allowing function components to have 
 
 Using class components you can register a function on the `componentDidMount`, `componentWillUnmount` and `componentDidUpdate` events, and those will serve many use cases, from variables initialization to API calls to cleanup.
 
-Hooks provide the `useEffect()` API. The call accepts a function as argument.
+Hooks provide the `useEffect()` API. The call accepts a function as an argument.
 
 The function runs when the component is first rendered, and on every subsequent re-render/update. React first updates the DOM, then calls any function passed to `useEffect()`. All without blocking the UI rendering even on blocking code, unlike the old `componentDidMount` and `componentDidUpdate`, which makes our apps feel faster.
 
@@ -108,7 +108,7 @@ useEffect(
 )
 ```
 
-Similarly you can tell React to only execute the side effect once (at mount time), by passing an empty array:
+Similarly, you can tell React to only execute the side effect once (at mount time), by passing an empty array:
 
 ```js
 useEffect(() => {
@@ -127,11 +127,11 @@ Example on Codepen:
 
 The ability to write your own hooks is the feature that is going to significantly alter how you write React apps in the future.
 
-Using custom hooks you have one more way to share state and logic between components, adding a significant improvement to the patterns of render props and higher order components. Which are still great, but now with custom hooks have less relevance in many use cases.
+Using custom hooks you have one more way to share state and logic between components, adding a significant improvement to the patterns of render props and higher-order components. Which are still great, but now with custom hooks have less relevance in many use cases.
 
 How do you create a custom hook?
 
-A hook is function that conventionally starts with `use`. It can accept an arbitrary number of arguments, and return anything it wants.
+A hook is a function that conventionally starts with `use`. It can accept an arbitrary number of arguments, and return anything it wants.
 
 Examples:
 
