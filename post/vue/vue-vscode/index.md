@@ -93,7 +93,7 @@ IntelliSense is also enabled bye Vetur, for each different language, with autoco
 
 In addition to enabling custom snippets, Vetur provides its own set of snippets. Each one creates a specific tag (template, script or style) with its own language:
 
-- `scaffold`
+- `vue`
 - `template with html`
 - `template with pug`
 - `script with JavaScript`
@@ -111,7 +111,7 @@ In addition to enabling custom snippets, Vetur provides its own set of snippets.
 - `style with stylus`
 - `style with stylus (scoped)`
 
-If you type `scaffold`, you'll get a starter pack for a single-file component:
+If you type `vue`, you'll get a starter pack for a single-file component:
 
 ```js
 <template>
