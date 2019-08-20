@@ -13,7 +13,7 @@ To use a UNIX system you had to use a shell.
 
 The most popular shell at the time was closed source and proprietary, you had to pay to use it. It was the Bourne shell, available under the `/bin/sh` command. It was called "Bourne" because its creator was Steve Bourne.
 
-Richard Stallman in those years with the GNU Project (and later on Linux) was about to revolution everything, starting the Open Source revolution. The GNU Project needed a shell, and, with the help of the Free Software Foundation, Bash was born. Heavily inspired by the Bourne Shell, Bash means *Bourne-again shell* and it is one key ingredient of the GNU Project, and probably one of its most successful pieces of software that we still use today.
+Richard Stallman in those years with the GNU Project (and later on Linux) was about to revolutionise everything, starting the Open Source revolution. The GNU Project needed a shell, and, with the help of the Free Software Foundation, Bash was born. Heavily inspired by the Bourne Shell, Bash means *Bourne-again shell* and it is one key ingredient of the GNU Project, and probably one of its most successful pieces of software that we still use today.
 
 Bash could run all scripts written for `sh`, which was a mandatory feature for its adoption, and it also introduced many more features, since the very early days, offering a better experience to its users. Since those early days, Bash gained lots of improvements. This tutorial describes the most popular and useful things you can do with it.
 
@@ -44,7 +44,7 @@ More often than not you'll never use any of the commands listed in the bash help
 
 To navigate through the filesystem you will use the `ls` command. It's available in the `/bin/ls`, and since Bash has the `/bin` folder in its paths list, you can just type `ls` to use it.
 
-`ls` lists the file in the current folder. You usually start from your home folder, which depends on the system but on macOS is under `/Users`. My home folder is in `/Users/flavio`. This is not Bash related, it's more of a UNIX filesystem thing, but arguments overlap and if you never used a shell it's good to know.
+`ls` lists the files in the current folder. You usually start from your home folder, which depends on the system but on macOS is under `/Users`. My home folder is in `/Users/flavio`. This is not Bash related, it's more of a UNIX filesystem thing, but arguments overlap and if you've never used a shell it's good to know.
 
 ![](Screen Shot 2019-01-11 at 22.00.45.png)
 
@@ -56,7 +56,7 @@ cd Documents
 
 `cd ..` goes back to the parent folder.
 
-Depending on your Bash configuration, you will see your current folder shown before the prompt (the `$` symbol). Or you might now, but you can always know where you are by typing `pwd` and pressing enter.
+Depending on your Bash configuration, you will see your current folder shown before the prompt (the `$` symbol). Or you might not, but you can always know where you are by typing `pwd` and pressing enter.
 
 > `pwd` means *p*athname of *w*orking *d*irectory
 
@@ -181,7 +181,7 @@ chsh -s /usr/local/bin/fish
 
 ## Customizing Bash
 
-I noticed before that you might (or not) see your current working directory in the Bash prompt. Where is this determined? In the Bash configuration!
+I noted before that you might (or might not) see your current working directory in the Bash prompt. Where is this determined? In the Bash configuration!
 
 There's a bit of confusion here because Bash uses a different configuration file for different scenarios, and it also reads multiple configuration files.
 
