@@ -141,7 +141,7 @@ Example:
 
 ```js
 encodeURIComponent("http://www.example.org/a file with spaces.html")
-// "http%3A%2F%2Fflaviocopes.com%2F%20hey!%2F"
+// "http%3A%2F%2Fwww.example.org%2Fa%20file%20with%20spaces.html"
 ```
 
 ## `eval()`
