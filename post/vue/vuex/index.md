@@ -12,7 +12,7 @@ tags: vue
 - [Why should you use Vuex](#why-should-you-use-vuex)
 - [Let's start](#lets-start)
 - [Create the Vuex store](#create-the-vuex-store)
-- [An use case for the store](#an-use-case-for-the-store)
+- [A use case for the store](#a-use-case-for-the-store)
 - [Introducing the new components we need](#introducing-the-new-components-we-need)
 - [Adding those components to the app](#adding-those-components-to-the-app)
 - [Add the state to the store](#add-the-state-to-the-store)
@@ -96,7 +96,7 @@ export const store = new Vuex.Store({})
 
 We export a Vuex store object, which we create using the `Vuex.Store()` API.
 
-## An use case for the store
+## A use case for the store
 
 Now that we have a skeleton in place, let's come up with an idea for a good use case for Vuex, so I can introduce its concepts.
 
