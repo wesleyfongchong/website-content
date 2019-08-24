@@ -31,7 +31,7 @@ Initialize VuexPersist:
 ```js
 const vuexPersist = new VuexPersist({
   key: 'my-app',
-  storage: localStorage
+  storage: window.localStorage
 })
 ```
 
