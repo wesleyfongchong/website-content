@@ -62,7 +62,7 @@ You can decide to exclude folders, for example it's a good idea to exclude `node
 }
 ```
 
-Now, VS Code can now point us type errors in our JavaScript code.
+Now, VS Code can point out type errors in our JavaScript code.
 
 And it can do it automatically, without us having to do anything.
 
@@ -88,7 +88,7 @@ to multiply 20 by 2, or like this to multiply it by 10:
 multiply(20, 10)
 ```
 
-But if you pass, for example, a string as second parameter like `multiply(20, 'hey')`, now VS Code will tell you there's a problem:
+But if you pass, for example, a string as the second parameter like `multiply(20, 'hey')`, VS Code will now tell you there's a problem:
 
 > Argument of type '"hey"' is not assignable to parameter of type 'number'
 
@@ -107,7 +107,7 @@ const multiply = (aNumber, times = 2) => {
 
 ⚠️ Don't forget the double `**` in the beginning of the comment, otherwise things will not work as expected.
 
-Now if you try do call `multiply('ho!')` you'll get an error too:
+Now if you try to call `multiply('ho!')` you'll get an error too:
 
 > Argument of type '"ho!"' is not assignable to parameter of type 'number'
 
