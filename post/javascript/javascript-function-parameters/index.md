@@ -39,11 +39,15 @@ dosomething()
 [ES2018](/es2018/) introduced trailing commas for parameters, a feature that helps reducing bugs due to missing commas when moving around parameters (e.g. moving the last in the middle):
 
 ```js
-const dosomething = (foo = 1, bar = 'hey') => {
+const dosomething = (foo = 1, bar = 'hey',) => {
   //do something
 }
 
 dosomething(2, 'ho!')
+```
+It is also okay to *call* your functions with a trailing comma after the last parameter:
+```js
+dosomething(2, 'ho!',)
 ```
 
 You can wrap all your arguments in an array, and use the [**spread operator**](/javascript-spread-operator/) when calling the function:
