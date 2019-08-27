@@ -11,7 +11,7 @@ path: pug
 <!-- TOC -->
 
 - [Introduction to Pug](#introduction-to-pug)
-- [How does Pug look like](#how-does-pug-look-like)
+- [How does Pug look?](#how-does-pug-look)
 - [Install Pug](#install-pug)
 - [Setup Pug to be the template engine in Express](#setup-pug-to-be-the-template-engine-in-express)
 - [Your first Pug template](#your-first-pug-template)
@@ -41,21 +41,21 @@ path: pug
 
 What is Pug? It's a template engine for server-side Node.js applications.
 
-Express is capable of handling server-side template engines. Template engines allow us to add data to a view, and generate HTML dynamically.
+Express is capable of handling server-side template engines. Template engines allow us to add data to a view and generate HTML dynamically.
 
-Pug is a new name for an old thing. It's _Jade 2.0_.
+Pug is the new name for an old thing. It's _Jade 2.0_.
 
-The name was changed from Jade to Pug due to a trademark issue in 2016, when the project released version 2. You can still use Jade, aka Pug 1.0, but going forward, it's best to use Pug 2.0
+Due to a trademark issue, the name was changed from Jade to Pug when the project released version 2 in 2016. You can still use Jade (aka Pug 1.0), but going forward it's best to use Pug 2.0.
 
 > Also see the [differences between Jade and Pug](https://pugjs.org/api/migration-v2.html)
 
-Express uses Jade as the default. Jade is the old version of Pug, specifically Pug 1.0.
+Express uses Jade as the default. As mentioned above, Jade is the old version of Pug - specifically Pug 1.0.
 
 Although the last version of Jade is 3 years old (at the time of writing, summer 2018), it's still the default in Express for backward compatibility reasons.
 
-In any new project, you should use Pug or another engine of your choice. The official site of Pug is <https://pugjs.org/>.
+Pug's official website is <https://pugjs.org/>.
 
-## How does Pug look like
+## How does Pug look?
 
 ```pug
 p Hello from Flavio
@@ -65,7 +65,7 @@ This template will create a `p` tag with the content `Hello from Flavio`.
 
 As you can see, Pug is quite special. It takes the tag name as the first thing in a line, and the rest is the content that goes inside it.
 
-If you are used to template engines that use HTML and interpolate variables, like Handlebars (described next), you might run into issues, especially when you need to convert existing HTML to Pug. This online converter from HTML to Jade (which is very similar, but a little different than Pug) will be  a great help: <https://jsonformatter.org/html-to-jade>
+If you are used to template engines that use HTML and interpolate variables; like Handlebars (described next), you might run into issues, especially when you need to convert existing HTML to Pug. This online converter from HTML to Jade (which is very similar, but a little different to Pug) will be a great help: <https://jsonformatter.org/html-to-jade>
 
 ## Install Pug
 
@@ -107,7 +107,7 @@ This template will create a `p` tag with the content `Hello from Flavio`.
 
 ## Interpolating variables in Pug
 
-You can interpolate a variable using
+You can interpolate a variable using:
 
 ```js
 app.get('/about', (req, res) => {
@@ -121,7 +121,7 @@ p Hello from #{name}
 
 ## Interpolate a function return value
 
-You can interpolate a function return value using
+You can interpolate a function return value using:
 
 ```js
 app.get('/about', (req, res) => {
@@ -245,7 +245,7 @@ span.age= age
 
 ## Iterating over variables
 
-You can use `for` or `each`. There is no difference.
+You can use `for` or `each`, they are interchangeable and there is no difference:
 
 ```pug
 for dog in dogs
@@ -284,9 +284,9 @@ include otherfile.pug
 
 ## Defining blocks
 
-A well organized template system will define a base template, and then all the other templates extend from it.
+A well-organized template system will define a base template, and then all the other templates will extend from it.
 
-The way a part of a template can be extended is by using blocks:
+Part of a template can be extended by using blocks:
 
 ```pug
 html
@@ -331,7 +331,7 @@ You can redefine one or more blocks. The ones not redefined will be kept with th
 
 ## Comments
 
-Comments in Pug can be of two types: visible or not visible in the resulting HTML.
+Comments in Pug can be of two types: visible or invisible in the resulting HTML.
 
 ### Visible
 
