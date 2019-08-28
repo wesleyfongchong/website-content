@@ -134,7 +134,7 @@ for (const item of items) {
 }
 ```
 
-can written as
+can be written as:
 
 ```js
 const count = items.reduce((result, { content: { value } }) => result + value, 0)
